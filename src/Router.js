@@ -18,6 +18,11 @@ function Router() {
     return (
         <NavigationContainer>
             <Tab.Navigator
+                screenOptions={{
+                    headerStyle: {
+                        backgroundColor: 'green',
+                    },
+                }}
                 shifting={true}
                 activeColor="white"
                 inactiveColor="black"
@@ -25,20 +30,20 @@ function Router() {
                 <Tab.Screen name="Main" component={Main} options={{
                     title: "Bitkiler",
                     tabBarIcon: () => (
-                        <Icon name="flower" color={"black"} size={24} />
+                        <Icon name="flower" color={"black"} size={22} />
                     ),
 
                 }} />
                 <Tab.Screen name="Cart" component={Cart} options={{
                     title: "Sepet",
                     tabBarIcon: () => (
-                        <Icon name="shopping-cart" color={"black"} size={24} />
+                        <Icon name="shopping-cart" color={"black"} size={22} />
                     ),
                 }} />
                 <Tab.Screen name="Profile" component={Profile} options={{
                     title: "Profil",
                     tabBarIcon: () => (
-                        <Icon name="users" color={"black"} size={24} />
+                        <Icon name="user" color={"black"} size={22} />
                     ),
                 }} />
             </Tab.Navigator>
