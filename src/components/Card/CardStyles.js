@@ -7,15 +7,20 @@ export default StyleSheet.create({
     },
     box: {
         width: Dimensions.get("screen").width / 4,
-        borderWidth: 1,
-        elevation: 22,
+        borderWidth: 0.5,
+        elevation: 12,
         borderRadius: 16,
         marginTop: 10,
         alignItems: "center",
-        backgroundColor: "#b8d5c6"
+        backgroundColor: "#dce2e5" //#b8d5c6
     },
     image: {
         height: 100,
         width: 60,
+    },
+    plantName: {
+        marginTop: 5,
+        color: "#376a4f",
+        fontWeight: "bold"
     }
 });

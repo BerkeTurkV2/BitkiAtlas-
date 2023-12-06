@@ -4,7 +4,7 @@ export default StyleSheet.create({
     container: {
         borderWidth: 0.6,
         borderRadius: 16,
-        marginVertical: 10,
+        marginVertical: 15,
         marginLeft: 16,
     },
     categorieName: {

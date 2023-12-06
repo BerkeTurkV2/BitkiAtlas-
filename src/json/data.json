@@ -1,0 +1,32 @@
+[
+    {
+        "id" : "1",
+        "plantName" : "Kentia",
+        "image" : "p1",
+        "price" : "180 TL"
+    },
+    {
+        "id" : "2",
+        "plantName" : "Papatya",
+        "image" : "p2",
+        "price" : "180 TL"
+    },
+    {
+        "id" : "3",
+        "plantName" : "Sarmaşık",
+        "image" : "p3",
+        "price" : "180 TL"
+    },
+    {
+        "id" : "4",
+        "plantName" : "Bambu",
+        "image" : "p4",
+        "price" : "180 TL"
+    },
+    {
+        "id" : "5",
+        "plantName" : "Kulayuta",
+        "image" : "p5",
+        "price" : "180 TL"
+    }
+]
