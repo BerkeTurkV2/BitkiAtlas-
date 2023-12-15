@@ -26,5 +26,9 @@ export default StyleSheet.create({
     },
     textInput: {
         paddingLeft: 15,
+    },
+    separator: {
+        borderWidth: 0.5,
+        borderColor: "#376a4f",
     }
 });

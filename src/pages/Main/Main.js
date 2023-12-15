@@ -40,6 +40,7 @@ function Main({navigation}) {
                     </View>
                 </ScrollView>
             </View>
+            <View style={styles.separator} />
             <FlatList
                 data={plantData}
                 renderItem={renderItem}
