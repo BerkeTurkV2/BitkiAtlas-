@@ -7,7 +7,7 @@ export default StyleSheet.create({
     },
     box: {
         width: Dimensions.get("screen").width / 4,
-        borderWidth: 0.5,
+        borderWidth: 0.4,
         elevation: 12,
         borderRadius: 16,
         marginTop: 10,
@@ -20,6 +20,7 @@ export default StyleSheet.create({
     },
     plantName: {
         marginTop: 5,
+        marginBottom: 5,
         color: "#376a4f",
         fontWeight: "bold"
     }

@@ -1,14 +1,17 @@
 import React from 'react';
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 
 import styles from "./CategoriesStyles";
 
-function Categories({categorieName}) {
+function Categories({ categorieName, selected, onPress }) {
     return (
-        <View style={styles.container} >
-            <Text style={styles.categorieName}> {categorieName} </Text>
-        </View>
-    )
+        <TouchableOpacity
+            style={[styles.container, { backgroundColor: selected ? "#376a4f" : "transparent" }]}
+            onPress={onPress}
+        >
+            <Text style={[styles.categorieName, {color: selected ? "white" : "gray" }]}> {categorieName} </Text>
+        </TouchableOpacity>
+    );
 }
 
 export default Categories;
